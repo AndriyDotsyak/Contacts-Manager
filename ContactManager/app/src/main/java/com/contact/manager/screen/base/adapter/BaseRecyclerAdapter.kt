@@ -31,5 +31,4 @@ abstract class BaseViewHolder<I>(itemView: View) : RecyclerView.ViewHolder(itemV
 
 interface OnItemClickListener<I> {
     fun onItemClick(item: I)
-    fun onItemLongClick(item: I)
 }

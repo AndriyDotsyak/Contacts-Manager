@@ -3,7 +3,7 @@ package com.contact.manager.di
 import com.contact.manager.di.module.HomeActivityModule
 import com.contact.manager.di.module.ViewModelModule
 import com.contact.manager.App
-import com.contact.manager.di.module.*
+import com.contact.manager.di.module.DetailedContactActivityModule
 import dagger.BindsInstance
 import dagger.Component
 import dagger.android.AndroidInjectionModule
@@ -15,7 +15,8 @@ import javax.inject.Singleton
     modules = [
         AndroidInjectionModule::class,
         ViewModelModule::class,
-        HomeActivityModule::class
+        HomeActivityModule::class,
+        DetailedContactActivityModule::class
     ]
 )
 

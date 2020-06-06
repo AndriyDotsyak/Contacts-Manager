@@ -18,6 +18,10 @@
             </intent-filter>
         </activity>
 
+        <activity
+            android:name=".screen.detailedContact.DetailedContactActivity"
+            android:screenOrientation="portrait" />
+
     </application>
 
 </manifest>
